@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+    <!--Site main css-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1 class="title">Array Practice</h1>
+    <h2>Assignment 1 (ANIMALS)</h2>
+    <div class="flex-container">
+        <div class="cuteAnimals">
+            <h1>Cute Animals</h1>
+            <p>Which animals do you think are cute?</p>
+            <input type="text" name="cuteAnimal" id="cuteAnimal" placeholder="Animal name"><br /><br />
+            <button onclick="printCuteAnimals(document.getElementById('cuteAnimal').value)">Send</button><br /><br />
+            <p>The cute animals are:</p>
+            <p id="displayAnimals"> </p>
+            <div class="image">
+                <img src="/images/yannick-menard-O3xT_2ffp9M-unsplash.jpg" alt="">
+            </div>
+        </div>
+        <div class="uglyAnimals">
+            <h1>Ugly Animals</h1>
+            <p>Which animals do you think are not cute?</p>
+            <input type="text" name="uglyAnimal" id="uglyAnimal" placeholder="Animal name"><br /><br />
+            <button onclick="printUglyAnimals(document.getElementById('uglyAnimal').value)">Send</button><br /><br />
+            <p>The ugly animals are:</p>
+            <p id="displayUglyAnimals"> </p>
+            <div class="image">
+                <img src="/images/stephen-hocking-jWvqbRp3wRM-unsplash.jpg" alt="">
+            </div>
+        </div>
+        <div class="mixAnimals">
+            <h1>Mix All Animals</h1>
+            <button onclick="mixAnimals()">Mix Animals</button><br>
+            <p id="displayMixAnimals"> </p>
+            <div class="image">
+                <img src="/images/pierre-bamin-CsLAqzkPTGw-unsplash.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <h2>Assignment 2 (VACATION TIME)</h2>
+    <p>Please check the console and the code</p>
+    <h2>Assignment 3 (VACATION CHOICE)</h2>
+    <p>Please check the console and the code</p>
+
+</body>
+
+
+<script src="/js/arrays.js"></script>
+<footer>
+    <div class="icons">
+        <!-- Add font awesome icons -->
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </div>
+    <!--copyright-->
+    <p>
+        Copyright &copy; 2022, Andrea Rivera.
+    </p>
+
+
+    <!--Footer Section End-->
+</footer>
+
+</html>
